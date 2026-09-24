@@ -1,0 +1,123 @@
+No existían resultados previos.
+
+Procesando eps=0.3...
+DBSCAN terminado.
+Clusters: 1
+Ruido: 0.50%
+Menos de 2 clusters. Métricas no calculadas.
+eps=0.3 guardado correctamente.
+
+Procesando eps=0.4...
+DBSCAN terminado.
+Clusters: 1
+Ruido: 0.30%
+Menos de 2 clusters. Métricas no calculadas.
+eps=0.4 guardado correctamente.
+
+Procesando eps=0.5...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.21%
+Calculando métricas...
+Silhouette: 0.9455
+Davies-Bouldin: 0.0504
+Calinski-Harabasz: 5075.1956
+eps=0.5 guardado correctamente.
+
+Procesando eps=0.6...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.16%
+Calculando métricas...
+Silhouette: 0.9454
+Davies-Bouldin: 0.0546
+Calinski-Harabasz: 8271.2452
+eps=0.6 guardado correctamente.
+
+Procesando eps=0.7...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.11%
+Calculando métricas...
+Silhouette: 0.9453
+Davies-Bouldin: 0.0583
+Calinski-Harabasz: 10047.1444
+eps=0.7 guardado correctamente.
+
+Procesando eps=0.8...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.11%
+Calculando métricas...
+Silhouette: 0.9453
+Davies-Bouldin: 0.0595
+Calinski-Harabasz: 10497.1175
+eps=0.8 guardado correctamente.
+
+Procesando eps=0.9...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.10%
+Calculando métricas...
+Silhouette: 0.9453
+Davies-Bouldin: 0.0596
+Calinski-Harabasz: 10492.0379
+eps=0.9 guardado correctamente.
+
+Procesando eps=1.0...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.07%
+Calculando métricas...
+Silhouette: 0.9452
+Davies-Bouldin: 0.0718
+Calinski-Harabasz: 15445.7630
+eps=1.0 guardado correctamente.
+
+Procesando eps=1.1...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.06%
+Calculando métricas...
+Silhouette: 0.9452
+Davies-Bouldin: 0.0718
+Calinski-Harabasz: 15414.4820
+eps=1.1 guardado correctamente.
+
+Procesando eps=1.2...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.06%
+Calculando métricas...
+Silhouette: 0.9452
+Davies-Bouldin: 0.0763
+Calinski-Harabasz: 16759.1751
+eps=1.2 guardado correctamente.
+
+Procesando eps=1.3...
+DBSCAN terminado.
+Clusters: 2
+Ruido: 0.03%
+Calculando métricas...
+Silhouette: 0.9451
+Davies-Bouldin: 0.0785
+Calinski-Harabasz: 17551.1490
+eps=1.3 guardado correctamente.
+
+Experimento terminado.
+Total de resultados: 11
+Resultados existentes cargados: 11
+eps=0.3 ya existe. Se omite.
+eps=0.4 ya existe. Se omite.
+eps=0.5 ya existe. Se omite.
+eps=0.6 ya existe. Se omite.
+eps=0.7 ya existe. Se omite.
+eps=0.8 ya existe. Se omite.
+eps=0.9 ya existe. Se omite.
+eps=1.0 ya existe. Se omite.
+eps=1.1 ya existe. Se omite.
+eps=1.2 ya existe. Se omite.
+eps=1.3 ya existe. Se omite.
+
+Experimento terminado.
+Total de resultados: 11
