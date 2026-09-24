@@ -1,0 +1,93 @@
+INICIO DE EJECUCIÓN DBSCAN
+============================================================
+
+============================================================
+Probando DBSCAN: eps=1.0, min_samples=5
+============================================================
+→ Ejecutando DBSCAN...
+✓ DBSCAN terminado
+→ Número de clusters: 3
+→ Porcentaje de ruido: 0.04%
+→ Observaciones para evaluación: 39985
+→ Calculando Silhouette...
+✓ Silhouette terminado: 0.7787
+→ Calculando Davies-Bouldin...
+✓ Davies-Bouldin terminado: 0.1672
+→ Calculando Calinski-Harabasz...
+✓ Calinski-Harabasz terminado: 8727.5590
+✓ min_samples=5 procesado correctamente
+
+============================================================
+Probando DBSCAN: eps=1.0, min_samples=10
+============================================================
+→ Ejecutando DBSCAN...
+✓ DBSCAN terminado
+→ Número de clusters: 2
+→ Porcentaje de ruido: 0.07%
+→ Observaciones para evaluación: 39971
+→ Calculando Silhouette...
+✓ Silhouette terminado: 0.9452
+→ Calculando Davies-Bouldin...
+✓ Davies-Bouldin terminado: 0.0718
+→ Calculando Calinski-Harabasz...
+✓ Calinski-Harabasz terminado: 15445.7630
+✓ min_samples=10 procesado correctamente
+
+============================================================
+Probando DBSCAN: eps=1.0, min_samples=15
+============================================================
+→ Ejecutando DBSCAN...
+✓ DBSCAN terminado
+→ Número de clusters: 2
+→ Porcentaje de ruido: 0.10%
+→ Observaciones para evaluación: 39962
+→ Calculando Silhouette...
+✓ Silhouette terminado: 0.9453
+→ Calculando Davies-Bouldin...
+✓ Davies-Bouldin terminado: 0.0630
+→ Calculando Calinski-Harabasz...
+✓ Calinski-Harabasz terminado: 11841.1749
+✓ min_samples=15 procesado correctamente
+
+============================================================
+Probando DBSCAN: eps=1.0, min_samples=20
+============================================================
+→ Ejecutando DBSCAN...
+✓ DBSCAN terminado
+→ Número de clusters: 2
+→ Porcentaje de ruido: 0.10%
+→ Observaciones para evaluación: 39959
+→ Calculando Silhouette...
+✓ Silhouette terminado: 0.9453
+→ Calculando Davies-Bouldin...
+✓ Davies-Bouldin terminado: 0.0601
+→ Calculando Calinski-Harabasz...
+✓ Calinski-Harabasz terminado: 10504.3512
+✓ min_samples=20 procesado correctamente
+
+============================================================
+Probando DBSCAN: eps=1.0, min_samples=25
+============================================================
+→ Ejecutando DBSCAN...
+✓ DBSCAN terminado
+→ Número de clusters: 1
+→ Porcentaje de ruido: 0.17%
+→ Menos de 2 clusters. Métricas no calculadas.
+✓ min_samples=25 procesado correctamente
+
+============================================================
+Probando DBSCAN: eps=1.0, min_samples=30
+============================================================
+→ Ejecutando DBSCAN...
+✓ DBSCAN terminado
+→ Número de clusters: 1
+→ Porcentaje de ruido: 0.17%
+→ Menos de 2 clusters. Métricas no calculadas.
+✓ min_samples=30 procesado correctamente
+
+============================================================
+✓ TODOS LOS RESULTADOS CALCULADOS
+Archivo: ../output/role_2/dbscan_min_samples.csv
+============================================================
+El archivo ya existe. Resultados cargados desde: ../output/role_2/dbscan_min_samples.csv
+El archivo ya existe. Resultados cargados desde: ../output/role_2/dbscan_min_samples.csv
