@@ -1,0 +1,4 @@
+,Representación,Escala,h diferencial observado,h esperada por cambio afín,Unidad,Diferencia observado-esperado
+0,Original,minutos,3.4750657812041656,3.4750657812041656,nats (variable en minutos),0.0
+1,MinMax,"[0, 1]",-1.8916109228572147,-1.8916109228572142,nats (variable adimensional),-4.440892098500626e-16
+2,Standard,"media 0, varianza 1",1.0996863800932999,5.850445182315031,nats (variable adimensional),-4.750758802221731
