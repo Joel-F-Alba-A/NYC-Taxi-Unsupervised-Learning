@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -c \"import nbformat,pathlib; p=pathlib\\.Path\\('notebooks/Role1_uncertainty_and_information\\.ipynb'\\); nb=nbformat\\.read\\(p,as_version=4\\); nbformat\\.validate\\(nb\\); code=\\[c for c in nb\\.cells if c\\.cell_type=='code'\\]; errors=\\[\\(i,o\\.get\\('ename'\\),o\\.get\\('evalue'\\)\\) for i,c in enumerate\\(nb\\.cells,1\\) for o in c\\.get\\('outputs',\\[\\]\\) if o\\.output_type=='error'\\]; print\\('Notebook válido:',p\\); print\\('Celdas:',len\\(nb\\.cells\\),'código:',len\\(code\\),'ejecutadas:',sum\\(c\\.execution_count is not None for c in code\\)\\); print\\('Errores guardados:',errors\\); print\\('Salidas de imagen:',sum\\('image/png' in o\\.get\\('data',\\{\\}\\) for c in code for o in c\\.get\\('outputs',\\[\\]\\)\\)\\); assert not errors\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -1,0 +1,24 @@
+,Métrica,Valor,Unidad,Lectura operativa
+0,Viajes de entrenamiento con fecha válida,32000.0,viajes,Base temporal para métricas y comparación con/sin ruido
+1,Viajes en perfil de recogida,32000.0,viajes,Recogidas válidas usadas para estimar demanda
+2,Anomalías de cualquier tipo,0.34375,% de entrenamiento,Incluye extremos espaciales y temporales; no todos se excluyen de demanda
+3,Recogidas fuera de NYC,0.0,% de entrenamiento,Excluidas de las probabilidades operativas de recogida
+4,Destinos fuera de NYC,0.015625,% de entrenamiento,Excluidos solo de análisis retrospectivos de destino
+5,Duración fuera de 1-360 min,0.328125,% de entrenamiento,Diagnóstico de resultado; no filtra demanda ni priors
+6,H(Zona origen),2.1462449078811408,bits/viaje,Incertidumbre espacial marginal
+7,H(Zona | Hora),2.1049033111761095,bits/viaje,Incertidumbre espacial residual al conocer la hora
+8,H(Demanda diaria | Tipo de día),1.5584248073324827,bits/día,Incertidumbre del nivel diario tras conocer laboral/fin de semana
+9,I(Hora; Zona origen),0.04134159670503165,bits/viaje,Información temporal sobre zona de recogida
+10,I(Hora; Zona destino),0.056981751379773946,bits/viaje,Asociación retrospectiva; no está disponible al despacho
+11,D_KL(Laboral || Fin de semana),0.017696612081626834,bits/viaje,Diferencia dirigida de perfiles espaciales
+12,D_KL(Fin de semana || Laboral),0.018354078678357824,bits/viaje,Dirección inversa; no tiene por qué coincidir
+13,"H(Laboral, Fin de semana)",2.2195931567118605,bits/viaje,Costo informativo al codificar laboral con el perfil de fin de semana
+14,"H(Fin de semana, Laboral)",2.1689173484523847,bits/viaje,Costo informativo al codificar fin de semana con el perfil laboral
+15,Jensen: E[log2 P(X)],-2.1462449078811408,bits,Debe ser menor o igual que log2 E[P(X)]
+16,Jensen: log2 E[P(X)],-1.7163418880090409,bits,Cota superior comprobada numéricamente
+17,Margen de Jensen,0.4299030198720999,bits,Diferencia no negativa entre ambos lados
+18,h(duración original),3.4750657812041656,nats; minutos,Entropía diferencial dependiente de escala
+19,h(duración MinMax),-1.8916109228572147,"nats; escala [0,1]",Entropía diferencial después del escalado MinMax
+20,h(duración Standard),1.0996863800932999,nats; variable estandarizada,Entropía diferencial después de StandardScaler
+21,"LSE([-1000,-1001,-999])",-998.5923940355556,log-unidades,Resultado finito frente al underflow ingenuo
+22,"LSE([1000,1001,999])",1001.4076059644444,log-unidades,Resultado finito frente al overflow ingenuo

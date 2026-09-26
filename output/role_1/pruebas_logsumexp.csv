@@ -1,0 +1,6 @@
+,Caso,Resultado,Estado
+0,Log-suma directa bajo flujo,-inf,-inf/erróneo
+1,Log-suma estable bajo flujo,-998.5923940355556,finito
+2,Suma exponencial directa sobre flujo,inf,inf/erróneo
+3,Log-suma estable sobre flujo,1001.4076059644444,finito
+4,Mezcla ponderada de probabilidades por zona,-0.9675840262617055,log(1)=0 esperado

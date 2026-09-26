@@ -1,0 +1,13 @@
+,alpha,Métrica,Valor,Unidad
+0,0.0,H(Laboral),2.1694172328308228,bits/viaje
+1,0.0,H(Fin de semana),2.0789724875145645,bits/viaje
+2,0.0,D_KL(Laboral||Fin de semana),inf,bits/viaje
+3,0.0,D_KL(Fin de semana||Laboral),inf,bits/viaje
+4,0.0,"H(Laboral, Fin de semana)",inf,bits/viaje
+5,0.0,"H(Fin de semana, Laboral)",inf,bits/viaje
+6,1.0,H(Laboral),2.201896544630234,bits/viaje
+7,1.0,H(Fin de semana),2.1505632697740262,bits/viaje
+8,1.0,D_KL(Laboral||Fin de semana),0.017696612081626834,bits/viaje
+9,1.0,D_KL(Fin de semana||Laboral),0.018354078678357824,bits/viaje
+10,1.0,"H(Laboral, Fin de semana)",2.2195931567118605,bits/viaje
+11,1.0,"H(Fin de semana, Laboral)",2.1689173484523847,bits/viaje
