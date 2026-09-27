@@ -1,0 +1,5 @@
+Perfil,Peso (pi_k),N efectivo,horas_pickup,is_weekend,log_duration,log_distancia,log_velocidad
+Perfil 0,0.219,8683,0.023,-0.634,0.955,1.204,0.638
+Perfil 1,0.3031,12176,0.128,-0.634,-0.041,-0.255,-0.249
+Perfil 2,0.1911,7579,-0.012,-0.634,-0.875,-1.014,-0.623
+Perfil 3,0.2868,11437,-0.144,1.577,-0.103,0.026,0.191

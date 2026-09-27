@@ -1,0 +1,9 @@
+Métrica,Valor
+Tipo de covarianza,full
+Inicialización,k-means++ (n_init=20)
+Semilla,42
+Convergió,True
+Iteraciones hasta convergencia,27
+Log-verosimilitud promedio,2.7406
+BIC,-217716.1
+AIC,-218429.3
